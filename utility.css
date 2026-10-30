@@ -1,0 +1,61 @@
+.displayflex{
+    display: flex;
+}
+
+.verter{
+    filter: invert(1);
+}
+
+.cg{
+    background-color: #121212;
+}
+
+.border{
+    border: 2px solid red;
+}
+
+.pr{
+    position: relative;
+}
+.paq{
+    position: absolute;
+}
+@keyframes play {
+    to{
+
+    }
+    from{
+        top: 178px;
+        opacity: 1;
+    }
+}
+
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212; /* Spotify main background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282828; /* Spotify dark gray scrollbar */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3e3e3e; /* Lighter gray when hovering */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #282828 #121212;
+}
+
+.cp{
+    cursor: pointer;
+}
